@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/family-tree/dashboard")
 public class DashboardController {
 
-    @GetMapping
+    @GetMapping("/greet")
     public String index() {
         return "Greetings from Spring Boot!";
     }
